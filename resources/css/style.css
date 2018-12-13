@@ -5,18 +5,18 @@
 /*--------------------------------------------------------*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    background-color: #fff;
-    color: rgb(5, 5, 5);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: rgb(5, 5, 5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-rendering: optimizeLegibility;
 }
 
 /*--------------------------------------------------------*/
@@ -24,93 +24,92 @@ html {
 /*--------------------------------------------------------*/
 
 .row {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .col {
-    padding: 30px;
-    margin: 5px;
+  padding: 30px;
+  margin: 5px;
 }
 
 .rowflex {
-    display: flex;
-    flex-direction: row; 
+  display: flex;
+  flex-direction: row;
 }
 
 section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 /*--------PARAGRAPH-------*/
 
 .long-copy {
-    line-height: 150%;
-    width: 90%;
-    margin-left: 5%;
-    font-size: 50%;
+  line-height: 150%;
+  width: 90%;
+  margin-left: 5%;
+  font-size: 50%;
 }
 .box p {
-    font-size: 50%;
-    line-height: 145%;
-    margin-bottom: 15px;
+  font-size: 50%;
+  line-height: 145%;
+  margin-bottom: 15px;
 }
 
 /* .box {
     padding: 1%;
 } */
 
-
 /*--------HEADINGS-------*/
 
 h1,
 h2,
 h3 {
-    font-weight: 50;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  font-weight: 50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #000;
-    font-size: 200%;
-    word-spacing: 4px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 200%;
+  word-spacing: 4px;
 }
 h2 {
-    font-size: 150%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
+  font-size: 150%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  font-size: 110%;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 h2::after {
-    display: block;
-    height: 2px;
-    background-color: #28b062;
-    content: "";
-    width: 100px;
-    margin: 0 auto;
+  display: block;
+  height: 2px;
+  background-color: #28b062;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
 }
 
 /*--------BUTTONS-------*/
 
 .btn:link,
 .btn:visited {
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    background-color: #2ecc71;
-    border-radius: 200px;
-    color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: #2ecc71;
+  border-radius: 200px;
+  color: #fff;
 }
 .btn:hover,
 .btn:active {
-    background-image: #28b062;
+  background-image: #28b062;
 }
 
 /*--------------------------------------------------------*/
@@ -118,57 +117,61 @@ h2::after {
 /*--------------------------------------------------------*/
 
 header {
-    background-image: url(img/rainier-ridao-1081623-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background-image: url(img/rainier-ridao-1081623-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .kids-text-box {
-    position: absolute;
-    width: 1140;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50% -50%)
+  position: absolute;
+  width: 1140;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50% -50%);
 }
 
 .logo {
-    margin-top: 20px;
-    height: 100px;
-    width: auto;
-    float: left;
-    color: transparent;
+  margin-top: 20px;
+  height: 100px;
+  width: auto;
+  float: left;
+  color: transparent;
 }
 .main-nav {
-    float: right;
-    list-style:  none;
-    margin-top: 60px;
+  float: right;
+  list-style: none;
+  margin-top: 60px;
 }
 .main-nav li {
-    display: inline;
-    margin-left: 1px;
+  display: inline;
+  margin-left: 1px;
 }
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 0 10px;
-    color: #2ecc71;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 70%;
-    border-right: 1px solid transparent;
-    transition: border-right 0.2s;
+  padding: 0 10px;
+  color: #2ecc71;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 70%;
+  border-right: 1px solid transparent;
+  transition: border-right 0.2s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 1px solid #2ecc71;
+  border-bottom: 1px solid #2ecc71;
 }
 
 /*--------------------------------------------------------*/
 /*IMAGES*/
 /*--------------------------------------------------------*/
 .shon {
-    display: block;
-    height: 300px;
-    width: 300px;
+  display: block;
+  height: 300px;
+  width: 300px;
+}
+
+men shoes {
+  text-align: center;
 }
