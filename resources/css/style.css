@@ -1,15 +1,12 @@
 /* green color #2ecc71 */
-
 /*--------------------------------------------------------*/
 /*BASIC SETUP*/
 /*--------------------------------------------------------*/
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   background-color: rgb(217, 216, 226);
   color: rgb(5, 5, 5);
@@ -18,11 +15,9 @@ html {
   font-size: 30px;
   text-rendering: optimizeLegibility;
 }
-
 /*--------------------------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*--------------------------------------------------------*/
-
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -31,22 +26,17 @@ html {
   padding: 30px;
   margin: 5px;
 }
-
 .rowflex {
   display: flex;
   flex-direction: row;
 }
-
 section {
   padding: 80px 0;
 }
-
 /*--------PARAGRAPH-------*/
-
 .long-copy {
   line-height: 150%;
   width: 90%;
-  margin-left: 5%;
   font-size: 50%;
 }
 .box p {
@@ -55,9 +45,9 @@ section {
   margin-bottom: 15px;
 }
 
-/* .box {
-    padding: 1%;
-} */
+.box {
+  padding: 1%;
+}
 
 /*--------HEADINGS-------*/
 
@@ -141,7 +131,7 @@ header {
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 .main-nav li {
   display: inline;
@@ -170,4 +160,37 @@ header {
   display: block;
   height: 300px;
   width: 300px;
+}
+
+.social-apps {
+  background: rgb(63, 61, 61);
+  text-decoration: none;
+  list-style: none;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.social-apps li {
+  display: inline;
+  margin-left: 1px;
+}
+
+.social-apps li a:link,
+.social-apps li a:visited {
+  padding: 0 10px;
+  color: #2ecc71;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 70%;
+  border-right: 1px solid transparent;
+  transition: border-right 0.2s;
+}
+
+.social-apps li a:hover,
+.social-apps li a:active {
+  border-bottom: 1px solid #2ecc71;
+}
+.copyrights {
+  padding-left: 10px;
+  text-transform: lowercase;
+  font-size: 10px;
 }
