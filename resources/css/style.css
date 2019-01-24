@@ -128,6 +128,12 @@ header {
   float: left;
   color: transparent;
 }
+.page-image {
+  margin-top: 140px;
+  padding-top: 70px;
+  float: left;
+  width: 500;
+}
 .main-nav {
   float: right;
   list-style: none;
